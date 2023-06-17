@@ -28,6 +28,10 @@ const Form = () => {
     } else {
       setError("");
       setStatus(true);
+      setName("");
+      setEmail("");
+      setPassword("");
+      setConfirmPassword("");
     }
   };
 
